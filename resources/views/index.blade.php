@@ -377,8 +377,8 @@
                 <!-- Slider Texts -->
                 <div class="container">
                     <div class="har_slide_txt har_slide_left_middle text-left" data-0="opacity:1; margin-top:0px" data--400-bottom="opacity:0; margin-top:-100px">
-                        <div class="har_slide_title">Loren Stone in her <br>Final Tribute</div>
-                        <div class="har_slide_subtitle">Awesome Creativity</div>
+                        <div class="har_slide_title">DJ WILLY FLECHAS</div>
+                        <div class="har_slide_subtitle">VISUAL MIX</div>
                         <p><img src="images/signature.png" height="60" alt=""></p>
                     </div> 
                 </div>
@@ -401,8 +401,8 @@
                 <div class="container">
                    <div class="har_slide_txt har_slide_left_middle text-left" data-0="opacity:1; margin-top:0px" data--400-bottom="opacity:0; margin-top:-100px">
 
-                        <div class="har_slide_title">Loren Stone in her <br>Final Tribute</div>
-                        <div class="har_slide_subtitle">Awesome Creativity</div>
+                        <div class="har_slide_title">DJ WILLY FLECHAS</div>
+                        <div class="har_slide_subtitle">VISUAL MIX</div>
                         <p><img src="images/signature.png" height="60" alt=""></p>
 
                     </div>
@@ -423,7 +423,7 @@
                     <div class="container text-center">
                         
                         <h2>Nuestros Servicios</h2>
-                        <h3>This is who create magic. <br>Our team creats somethig special for you</h3>
+                        <h3>Sonido y luces profesionales <br>sonido grande o pequeño para cualquier evento y ocasión,</h3>
                         
                         <!-- boxes -->
                         <div class="har_icon_boxes row text-center">
@@ -442,7 +442,7 @@
                                         <a href="#"><i class="ti ti-twitter-alt"></i></a>
                                         <a href="#"><i class="ti ti-google"></i></a>
                                     </div>
-                                    <h4><b>Alicia mirou</b> <br>Guitarist</h4>
+                                    <h4><b>Sonido</b> <br></h4>
                                 </div> 
 
                                 <!-- item -->
@@ -455,7 +455,7 @@
                                         <a href="#"><i class="ti ti-twitter-alt"></i></a>
                                         <a href="#"><i class="ti ti-google"></i></a>
                                     </div>
-                                    <h4><b>Maria Rufer</b> <br>Singer</h4>
+                                    <h4><b>Luces</b> <br></h4>
                                 </div> 
 
                                 <!-- item -->
@@ -468,7 +468,7 @@
                                         <a href="#"><i class="ti ti-twitter-alt"></i></a>
                                         <a href="#"><i class="ti ti-google"></i></a>
                                     </div>
-                                    <h4><b>Sindy Foster</b> <br>Drummer</h4>
+                                    <h4><b>Mezclas</b> <br></h4>
                                 </div> 
                                                       
                             </div>
@@ -494,27 +494,27 @@
                             <!-- item -->
                             <div class="col-md-4 har_image_bck har_wht_txt" data-color="#003D66">
                                 <div class="har_simple_block_mini">
-                                    <h2>PHILOSOPHY & GOAL</h2>
-                                    <h3>the best or nothing</h3>
-                                    <p>Music is one of the highest aesthetic art forms on earth and we believe it is very important to life and the survival of the society at large, thus we have a goal - Aesthetic music in a drug-free culture</p>
+                                    <h2>Noticia 1</h2>
+                                    <h3>La mejor noticia 1</h3>
+                                    <p>DJ WILLY FLECHAS es un show performance que ha superado las puestas en escena de un sin número de djs a nivel nacional e internacional; logrando ser hoy en día una reconocida marca en el mundo del espectáculo crossover: DJ WILLY FLECHAS. </p>
                                 </div>
                             </div>
                             
                             <!-- item -->
                             <div class="col-md-4 har_image_bck har_wht_txt" data-color="#06588D">
                                 <div class="har_simple_block_mini">
-                                    <h2>Welcome to harmony</h2>
-                                    <h3>how everything began</h3>
-                                    <p>Like many great stories this one started with an idea, with the enthusiasm and with the work. We are now an international company, with an in-house recording studio, in-house graphic design and in-house mastering</p>
+                                    <h2>Noticia 2</h2>
+                                    <h3>La mejor noticia 2</h3>
+                                    <p>Su marca empezó a ser reconocida gracias a los remixes y mixes producidos para importantes disqueras como Sony, BMG, Universal Music, EMI Colombia, Discos FM; con sus artistas: Destiny's Child, Shakira, Juanes, Juan Luis Guerra, Joe Arroyo, Andrés Cepeda, Checo Acosta, entre otros.</p>
                                 </div>
                             </div>
                             
                             <!-- item -->
                             <div class="col-md-4 har_image_bck har_wht_txt" data-color="#003D66">
                                 <div class="har_simple_block_mini">
-                                    <h2>talented artists</h2>
-                                    <h3>talented artists</h3>
-                                    <p>Harmony has been awarded the prestigious "Medal of Science & Art" of the Albert Schweitzer Society NTFO. Also we were matched as the best artists of 2016 by Milano version</p>
+                                    <h2>Noticia 3</h2>
+                                    <h3>La mejor noticia 3</h3>
+                                    <p>15 años en la radio nacional, le permitieron posicionar su nombre y ganar el cariño del público colombiano. Dj productor en las emisoras más reconocidas y número 1 en Colombia.</p>
                                 </div>
                             </div>
                             
@@ -529,7 +529,7 @@
 
 
                 <!-- section -->
-                <section class="har_section har_image_bck har_wht_txt har_fixed" data-image="http://placehold.it/1400x900" data-stellar-background-ratio="0.2" id="next_event">
+                <section class="har_section har_image_bck har_wht_txt har_fixed" data-image="/images/willy/fondoevento.jpg" data-stellar-background-ratio="0.2" id="next_event">
                     
                     <!-- Over -->
                     <div class="har_over" data-color="#333" data-opacity="0.8"></div>
@@ -537,7 +537,7 @@
                     <div class="container text-center">
                         
                         <h2>Siguiente Evento</h2>
-                        <h3>Don’t forget to subscribe <br>Our next awesome will be soon</h3>
+                        <h3>Post produccion <br>Audio y Video</h3>
 
                         <!-- CountDown -->
                         <span class="har_countdown" data-year="2017" data-month="05" data-day="28"></span>
@@ -545,12 +545,12 @@
                         <div class="row">
                             <div class="col-md-6 col-md-offset-3">
 
-                                <h3>Stay Informed with Our Newsletter</h3>
+                                <h3>Mantenterse informado.</h3>
                                 <form action="#">
                                     <input type="text" class="form-control" placeholder="E-mail Adress">
                                     <input type="submit" class="btn" value="Subscribe">
                                 </form>
-                                <p>Please trust us, we will never send you spam.</p>
+                                {{-- <p>Please trust us, we will never send you spam.</p> --}}
                             </div>     
 
                         </div>
@@ -584,8 +584,8 @@
                                         </span>
                                     </span>
                                 </a>
-                                <h4>Felicia Bardo</h4>
-                                <span class="har_shop_desc">Becoming someone</span>
+                                <h4>Willy Flechas - Carlos Vives Ft Shakira - La Bicicleta</h4>
+                                <span class="har_shop_desc"></span>
                                 <span class="har_shop_price">$11.99</span>
                                 <span class="har_shop_soc">
                                     <a href="#"><i class="ti ti-shopping-cart"></i></a>
@@ -605,8 +605,8 @@
                                         </span>
                                     </span>
                                 </a>
-                                <h4>Anthony Burdas</h4>
-                                <span class="har_shop_desc">Final trip To Nowhere</span>
+                                <h4>Willy Flechas - Party Megamix 2016!</h4>
+                                <span class="har_shop_desc"></span>
                                 <span class="har_shop_price">$9.99</span>
                                 <span class="har_shop_soc">
                                     <a href="#"><i class="ti ti-shopping-cart"></i></a>
@@ -626,8 +626,8 @@
                                         </span>
                                     </span>
                                 </a>
-                                <h4>John Black</h4>
-                                <span class="har_shop_desc">Just try to fly</span>
+                                <h4>Willy Flechas - Cuando Te Veo (Remix Willy Flechas)</h4>
+                                <span class="har_shop_desc"></span>
                                 <span class="har_shop_price">$6.99</span>
                                 <span class="har_shop_soc">
                                     <a href="#"><i class="ti ti-shopping-cart"></i></a>
@@ -635,7 +635,7 @@
                                 </span>
                             </div>
                             
-                            <!-- item -->
+                          {{--   <!-- item -->
                             <div class="har_shop_al_item_bl">
                                 <a href="#" class="har_shop_al_item">
                                     <span class="har_shop_item_disk">
@@ -654,7 +654,7 @@
                                     <a href="#"><i class="ti ti-shopping-cart"></i></a>
                                     <a href="#"><i class="ti ti-info"></i></a>
                                 </span>
-                            </div>
+                            </div> --}}
                             
                         </div>
                         <!-- slider end -->
@@ -672,7 +672,9 @@
                     <div class="container text-center">
                         
                         <h2>Calendario</h2>
-                        <h3>If it is something good, you’l know first. <br> Follow us on Youtube & Vimeo to view more</h3>
+                        <h3>disponibilidad y eventos <br>
+                         {{-- Follow us on Youtube & Vimeo to view more --}}
+                         </h3>
                         
                     </div>
                     <!-- container end -->
@@ -780,13 +782,15 @@
                     <div class="container-fluid text-center">
                         
                         <h2>Galeria de fotos</h2>
-                        <h3>Explore our life & events <br>Don’t stay aside be the part of our performance</h3>
+                        <h3>Fotografica <br>
+                        {{-- Don’t stay aside be the part of our performance --}}
+                        </h3>
                         
                         <!-- filters -->
                         <div class="button-group filter-button-group">
-                            <a data-filter="*">Show All</a>
-                            <a data-filter=".event">Event</a>
-                            <a data-filter=".musician">Musician</a>
+                            <a data-filter="*">Todos</a>
+                            <a data-filter=".event">Evento</a>
+                            <a data-filter=".musician">Musica</a>
                             <a data-filter=".mediam">Media</a>
                         </div>
                         <!-- filters end -->
@@ -799,8 +803,8 @@
                                 <div class="har_portfolio_item_cont">
                                     <img src="/images/willy/gal1.jpg" alt="">
                                     <span class="har_port_titles">
-                                        <span class="har_port_title">Centennial Park</span>
-                                        <span class="har_port_subtitle">Ribfest 2016</span>
+                                        <span class="har_port_title">Willy Flechas</span>
+                                        <span class="har_port_subtitle">2017</span>
                                         <span class="har_port_icons">
                                             <a href="#"><i class="ti ti-link"></i></a>
                                             <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
@@ -814,8 +818,8 @@
                                 <div class="har_portfolio_item_cont">
                                     <img src="/images/willy/gal2.jpg" alt="">
                                      <span class="har_port_titles">
-                                        <span class="har_port_title">Paramount Theatre</span>
-                                        <span class="har_port_subtitle">Salmon Festival</span>
+                                        <span class="har_port_title">Willy Flechas</span>
+                                        <span class="har_port_subtitle">2017</span>
                                         <span class="har_port_icons">
                                             <a href="#"><i class="ti ti-link"></i></a>
                                             <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
@@ -829,8 +833,8 @@
                                 <div class="har_portfolio_item_cont">
                                     <img src="/images/willy/gal3.jpg" alt="">
                                     <span class="har_port_titles">
-                                        <span class="har_port_title">Hyde Medison Park</span>
-                                        <span class="har_port_subtitle">Final tour 2016</span>
+                                        <span class="har_port_title">Willy Flechas</span>
+                                        <span class="har_port_subtitle">2017</span>
                                         <span class="har_port_icons">
                                             <a href="#"><i class="ti ti-link"></i></a>
                                             <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
@@ -844,8 +848,8 @@
                                 <div class="har_portfolio_item_cont">
                                     <img src="/images/willy/gal4.jpg" alt="">
                                     <span class="har_port_titles">
-                                        <span class="har_port_title">Centennial Park</span>
-                                        <span class="har_port_subtitle">Ribfest 2016</span>
+                                        <span class="har_port_title">Willy Flechas</span>
+                                        <span class="har_port_subtitle">2017</span>
                                         <span class="har_port_icons">
                                            <a href="#"><i class="ti ti-link"></i></a>
                                            <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
@@ -861,8 +865,8 @@
                                 <div class="har_portfolio_item_cont">
                                     <img src="/images/willy/gal5.jpg" alt="">
                                     <span class="har_port_titles">
-                                        <span class="har_port_title">Paramount Theatre</span>
-                                        <span class="har_port_subtitle">Salmon Festival</span>
+                                        <span class="har_port_title">Willy Flechas</span>
+                                        <span class="har_port_subtitle">2017</span>
                                         <span class="har_port_icons">
                                             <a href="#"><i class="ti ti-link"></i></a>
                                             <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
@@ -876,8 +880,8 @@
                                 <div class="har_portfolio_item_cont">
                                     <img src="/images/willy/gal6.jpg" alt="">
                                     <span class="har_port_titles">
-                                        <span class="har_port_title">Hyde Medison Park</span>
-                                        <span class="har_port_subtitle">Final tour 2016</span>
+                                        <span class="har_port_title">Willy Flechas</span>
+                                        <span class="har_port_subtitle">2017</span>
                                         <span class="har_port_icons">
                                            <a href="#"><i class="ti ti-link"></i></a>
                                            <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
@@ -914,7 +918,7 @@
 
 
                 <!-- section -->
-                <section class="har_section har_image_bck har_wht_txt har_fixed" data-image="http://placehold.it/1400x900" data-stellar-background-ratio="0.2" id="contacto">
+                <section class="har_section har_image_bck har_wht_txt har_fixed" data-image="/images/willy/fondo2.jpg" data-stellar-background-ratio="0.2" id="contacto">
                     
                     <!-- Over -->
                     <div class="har_over" data-color="#000" data-opacity="0.6"></div>
