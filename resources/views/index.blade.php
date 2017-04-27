@@ -1,9 +1,12 @@
-﻿<!DOCTYPE html>
+﻿<?php 
+use App\Variables;
+ ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harmony</title>
+    <title>Willy Flechas DJ</title>
 
 
 
@@ -294,7 +297,7 @@
                     <span class="har_logo_eq">
                         <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
                     </span>
-                    <a href="/" class="har_logo">Harmony</a>
+                    <a href="/" class="har_logo"><img src="/img/logosintext.png" alt="" style="max-height: 40px"></a>
                     <!-- Logo End-->
                     
                     
@@ -367,7 +370,7 @@
             <div class="har_slider har_wht_txt">
 
 
-                <div class="har_slider_img har_image_bck" data-image="images/willy/banner1.jpg"></div>
+                <div class="har_slider_img har_image_bck" data-image="{{Variables::valor('banner1')}}"></div>
 
                 <!-- Over -->
                 <div class="har_over" data-color="#000" data-opacity="0"></div>
