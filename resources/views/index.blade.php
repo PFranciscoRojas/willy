@@ -1,5 +1,7 @@
 ﻿<?php 
 use App\Variables;
+use App\Canciones;
+use App\Galeria;
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -380,8 +382,8 @@ use App\Variables;
                 <!-- Slider Texts -->
                 <div class="container">
                     <div class="har_slide_txt har_slide_left_middle text-left" data-0="opacity:1; margin-top:0px" data--400-bottom="opacity:0; margin-top:-100px">
-                        <div class="har_slide_title">DJ WILLY FLECHAS</div>
-                        <div class="har_slide_subtitle">VISUAL MIX</div>
+                        <div class="har_slide_title">{{Variables::valor('TitBanner1')}}</div>
+                        <div class="har_slide_subtitle">{{Variables::valor('SubTitBanner1')}}</div>
                         <p><img src="images/signature.png" height="60" alt=""></p>
                     </div> 
                 </div>
@@ -392,7 +394,7 @@ use App\Variables;
 
                <!-- Item -->
             <div class="har_slider  har_wht_txt">
-                <div class="har_slider_img har_image_bck" data-image="images/willy/banner3.jpg"></div>
+                <div class="har_slider_img har_image_bck" data-image="{{Variables::valor('banner2')}}"></div>
 
                 <!-- Over -->
                 <div class="har_over" data-color="#000" data-opacity="0"></div>
@@ -404,8 +406,8 @@ use App\Variables;
                 <div class="container">
                    <div class="har_slide_txt har_slide_left_middle text-left" data-0="opacity:1; margin-top:0px" data--400-bottom="opacity:0; margin-top:-100px">
 
-                        <div class="har_slide_title">DJ WILLY FLECHAS</div>
-                        <div class="har_slide_subtitle">VISUAL MIX</div>
+                        <div class="har_slide_title">{{Variables::valor('TitBanner2')}}</div>
+                        <div class="har_slide_subtitle">{{Variables::valor('SubTitBanner2')}}</div>
                         <p><img src="images/signature.png" height="60" alt=""></p>
 
                     </div>
@@ -497,27 +499,27 @@ use App\Variables;
                             <!-- item -->
                             <div class="col-md-4 har_image_bck har_wht_txt" data-color="#003D66">
                                 <div class="har_simple_block_mini">
-                                    <h2>Noticia 1</h2>
-                                    <h3>La mejor noticia 1</h3>
-                                    <p>DJ WILLY FLECHAS es un show performance que ha superado las puestas en escena de un sin número de djs a nivel nacional e internacional; logrando ser hoy en día una reconocida marca en el mundo del espectáculo crossover: DJ WILLY FLECHAS. </p>
+                                    <h2>{{Variables::valor('TitNoticia1')}}</h2>
+                                    <h3>{{Variables::valor('SubTitNoticia1')}}</h3>
+                                    <p>{{Variables::valor('textNoticia1')}} </p>
                                 </div>
                             </div>
                             
                             <!-- item -->
                             <div class="col-md-4 har_image_bck har_wht_txt" data-color="#06588D">
                                 <div class="har_simple_block_mini">
-                                    <h2>Noticia 2</h2>
-                                    <h3>La mejor noticia 2</h3>
-                                    <p>Su marca empezó a ser reconocida gracias a los remixes y mixes producidos para importantes disqueras como Sony, BMG, Universal Music, EMI Colombia, Discos FM; con sus artistas: Destiny's Child, Shakira, Juanes, Juan Luis Guerra, Joe Arroyo, Andrés Cepeda, Checo Acosta, entre otros.</p>
+                                    <h2>{{Variables::valor('TitNoticia2')}}</h2>
+                                    <h3>{{Variables::valor('SubTitNoticia2')}}</h3>
+                                    <p>{{Variables::valor('textNoticia2')}} </p>
                                 </div>
                             </div>
                             
                             <!-- item -->
                             <div class="col-md-4 har_image_bck har_wht_txt" data-color="#003D66">
                                 <div class="har_simple_block_mini">
-                                    <h2>Noticia 3</h2>
-                                    <h3>La mejor noticia 3</h3>
-                                    <p>15 años en la radio nacional, le permitieron posicionar su nombre y ganar el cariño del público colombiano. Dj productor en las emisoras más reconocidas y número 1 en Colombia.</p>
+                                    <h2>{{Variables::valor('TitNoticia3')}}</h2>
+                                    <h3>{{Variables::valor('SubTitNoticia3')}}</h3>
+                                    <p>{{Variables::valor('textNoticia3')}} </p>
                                 </div>
                             </div>
                             
@@ -532,7 +534,7 @@ use App\Variables;
 
 
                 <!-- section -->
-                <section class="har_section har_image_bck har_wht_txt har_fixed" data-image="/images/willy/fondoevento.jpg" data-stellar-background-ratio="0.2" id="next_event">
+                <section class="har_section har_image_bck har_wht_txt har_fixed" data-image="{{Variables::valor('FondoEvento')}}" data-stellar-background-ratio="0.2" id="next_event">
                     
                     <!-- Over -->
                     <div class="har_over" data-color="#333" data-opacity="0.8"></div>
@@ -587,13 +589,13 @@ use App\Variables;
                                         </span>
                                     </span>
                                 </a>
-                                <h4>Willy Flechas - Carlos Vives Ft Shakira - La Bicicleta</h4>
+                                <h4>{{Canciones::valor('Cancion1')}}</h4>
                                 <span class="har_shop_desc"></span>
-                                <span class="har_shop_price">$11.99</span>
-                                <span class="har_shop_soc">
+                                <span class="har_shop_price"></span>
+                                {{-- <span class="har_shop_soc">
                                     <a href="#"><i class="ti ti-shopping-cart"></i></a>
                                     <a href="#"><i class="ti ti-info"></i></a>
-                                </span>
+                                </span> --}}
                             </div>
                             
                             <!-- item -->
@@ -602,19 +604,19 @@ use App\Variables;
                                     <span class="har_shop_item_disk">
                                         <span class="har_shop_item_cover har_image_bck" data-image="/images/willy/can2.jpg"></span>
                                         <span class="har_shop_item_env"></span>
-                                        <span class="har_shop_item_vinyl">
+                                        {{-- <span class="har_shop_item_vinyl">
                                             <span class="har_shop_item_vinyl_img har_image_bck" data-image="http://placehold.it/790x766"></span>
                                             <span class="har_shop_item_vinyl_hole"></span>
-                                        </span>
+                                        </span> --}}
                                     </span>
                                 </a>
-                                <h4>Willy Flechas - Party Megamix 2016!</h4>
+                                <h4>{{Canciones::valor('Cancion2')}}</h4>
                                 <span class="har_shop_desc"></span>
-                                <span class="har_shop_price">$9.99</span>
-                                <span class="har_shop_soc">
+                                <span class="har_shop_price"></span>
+                               {{--  <span class="har_shop_soc">
                                     <a href="#"><i class="ti ti-shopping-cart"></i></a>
                                     <a href="#"><i class="ti ti-info"></i></a>
-                                </span>
+                                </span> --}}
                             </div>
                             
                             <!-- item -->
@@ -623,19 +625,19 @@ use App\Variables;
                                     <span class="har_shop_item_disk">
                                         <span class="har_shop_item_cover har_image_bck" data-image="/images/willy/can3.jpg"></span>
                                         <span class="har_shop_item_env"></span>
-                                        <span class="har_shop_item_vinyl">
+                                        {{-- <span class="har_shop_item_vinyl">
                                             <span class="har_shop_item_vinyl_img har_image_bck" data-image="http://placehold.it/790x766"></span>
                                             <span class="har_shop_item_vinyl_hole"></span>
-                                        </span>
+                                        </span> --}}
                                     </span>
                                 </a>
-                                <h4>Willy Flechas - Cuando Te Veo (Remix Willy Flechas)</h4>
+                                <h4>{{Canciones::valor('Cancion3')}}</h4>
                                 <span class="har_shop_desc"></span>
-                                <span class="har_shop_price">$6.99</span>
-                                <span class="har_shop_soc">
+                                <span class="har_shop_price"></span>
+                               {{--  <span class="har_shop_soc">
                                     <a href="#"><i class="ti ti-shopping-cart"></i></a>
                                     <a href="#"><i class="ti ti-info"></i></a>
-                                </span>
+                                </span> --}}
                             </div>
                             
                           {{--   <!-- item -->
@@ -802,60 +804,60 @@ use App\Variables;
                         <div class="har_portfolio grid">
 
                             <!-- item -->
-                            <div class="col-sm-4 har_portfolio_item grid-item event">
+                            <div class="col-sm-4 har_portfolio_item grid-item {{Galeria::valor('clase1')}}">
                                 <div class="har_portfolio_item_cont">
-                                    <img src="/images/willy/gal1.jpg" alt="">
+                                    <img src="{{Galeria::valor('foto1')}}" alt="">
                                     <span class="har_port_titles">
-                                        <span class="har_port_title">Willy Flechas</span>
-                                        <span class="har_port_subtitle">2017</span>
+                                        <span class="har_port_title">{{Galeria::valor('Title1')}}</span>
+                                        <span class="har_port_subtitle">{{Galeria::valor('Subtitle1')}}</span>
                                         <span class="har_port_icons">
                                             <a href="#"><i class="ti ti-link"></i></a>
-                                            <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
+                                            <a href="{{Galeria::valor('FotoGrande1')}}" class="lightbox"><i class="ti ti-search"></i></a>
                                         </span>
                                     </span>
                                 </div>
                             </div>
                           
                             <!-- item -->
-                            <div class="col-sm-4 har_portfolio_item grid-item event">
+                            <div class="col-sm-4 har_portfolio_item grid-item {{Galeria::valor('clase2')}}">
                                 <div class="har_portfolio_item_cont">
-                                    <img src="/images/willy/gal2.jpg" alt="">
+                                    <img src="{{Galeria::valor('foto2')}}" alt="">
                                      <span class="har_port_titles">
-                                        <span class="har_port_title">Willy Flechas</span>
-                                        <span class="har_port_subtitle">2017</span>
+                                        <span class="har_port_title">{{Galeria::valor('Title2')}}</span>
+                                        <span class="har_port_subtitle">{{Galeria::valor('Subtitle2')}}</span>
                                         <span class="har_port_icons">
                                             <a href="#"><i class="ti ti-link"></i></a>
-                                            <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
+                                            <a href="{{Galeria::valor('FotoGrande2')}}" class="lightbox"><i class="ti ti-search"></i></a>
                                         </span>
                                     </span>
                                 </div>
                             </div>
 
                             <!-- item -->
-                            <div class="col-sm-4 har_portfolio_item grid-item mediam musician">
+                            <div class="col-sm-4 har_portfolio_item grid-item {{Galeria::valor('clase3')}}">
                                 <div class="har_portfolio_item_cont">
-                                    <img src="/images/willy/gal3.jpg" alt="">
+                                    <img src="{{Galeria::valor('foto3')}}" alt="">
                                     <span class="har_port_titles">
-                                        <span class="har_port_title">Willy Flechas</span>
-                                        <span class="har_port_subtitle">2017</span>
+                                        <span class="har_port_title">{{Galeria::valor('Title3')}}</span>
+                                        <span class="har_port_subtitle">{{Galeria::valor('Subtitle3')}}</span>
                                         <span class="har_port_icons">
                                             <a href="#"><i class="ti ti-link"></i></a>
-                                            <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
+                                            <a href="{{Galeria::valor('FotoGrande3')}}" class="lightbox"><i class="ti ti-search"></i></a>
                                         </span>
                                     </span>
                                 </div>
                             </div>
                       
                               <!-- item -->
-                            <div class="col-sm-4 har_portfolio_item grid-item event mediam">
+                            <div class="col-sm-4 har_portfolio_item grid-item {{Galeria::valor('clase4')}}">
                                 <div class="har_portfolio_item_cont">
-                                    <img src="/images/willy/gal4.jpg" alt="">
+                                    <img src="{{Galeria::valor('foto4')}}" alt="">
                                     <span class="har_port_titles">
-                                        <span class="har_port_title">Willy Flechas</span>
-                                        <span class="har_port_subtitle">2017</span>
+                                        <span class="har_port_title">{{Galeria::valor('Title4')}}</span>
+                                        <span class="har_port_subtitle">{{Galeria::valor('Subtitle4')}}</span>
                                         <span class="har_port_icons">
-                                           <a href="#"><i class="ti ti-link"></i></a>
-                                           <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
+                                            <a href="#"><i class="ti ti-link"></i></a>
+                                            <a href="{{Galeria::valor('FotoGrande4')}}" class="lightbox"><i class="ti ti-search"></i></a>
                                         </span>
                                     </span>
                                 </div>
@@ -864,30 +866,30 @@ use App\Variables;
               
 
                             <!-- item -->
-                            <div class="col-sm-4 har_portfolio_item grid-item event musician mediam">
+                            <div class="col-sm-4 har_portfolio_item grid-item event {{Galeria::valor('clase5')}}">
                                 <div class="har_portfolio_item_cont">
-                                    <img src="/images/willy/gal5.jpg" alt="">
+                                    <img src="{{Galeria::valor('foto5')}}" alt="">
                                     <span class="har_port_titles">
-                                        <span class="har_port_title">Willy Flechas</span>
-                                        <span class="har_port_subtitle">2017</span>
+                                        <span class="har_port_title">{{Galeria::valor('Title5')}}</span>
+                                        <span class="har_port_subtitle">{{Galeria::valor('Subtitle5')}}</span>
                                         <span class="har_port_icons">
                                             <a href="#"><i class="ti ti-link"></i></a>
-                                            <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
+                                            <a href="{{Galeria::valor('FotoGrande5')}}" class="lightbox"><i class="ti ti-search"></i></a>
                                         </span>
                                     </span>
                                 </div>
                             </div>
 
                             <!-- item -->
-                            <div class="col-sm-4 har_portfolio_item grid-item event musician">
+                            <div class="col-sm-4 har_portfolio_item grid-item {{Galeria::valor('clase6')}}">
                                 <div class="har_portfolio_item_cont">
-                                    <img src="/images/willy/gal6.jpg" alt="">
+                                    <img src="{{Galeria::valor('foto6')}}" alt="">
                                     <span class="har_port_titles">
-                                        <span class="har_port_title">Willy Flechas</span>
-                                        <span class="har_port_subtitle">2017</span>
+                                        <span class="har_port_title">{{Galeria::valor('Title6')}}</span>
+                                        <span class="har_port_subtitle">{{Galeria::valor('Subtitle6')}}</span>
                                         <span class="har_port_icons">
-                                           <a href="#"><i class="ti ti-link"></i></a>
-                                           <a href="http://placehold.it/1400x900" class="lightbox"><i class="ti ti-search"></i></a>
+                                            <a href="#"><i class="ti ti-link"></i></a>
+                                            <a href="{{Galeria::valor('FotoGrande6')}}" class="lightbox"><i class="ti ti-search"></i></a>
                                         </span>
                                     </span>
                                 </div>
@@ -921,7 +923,7 @@ use App\Variables;
 
 
                 <!-- section -->
-                <section class="har_section har_image_bck har_wht_txt har_fixed" data-image="/images/willy/fondo2.jpg" data-stellar-background-ratio="0.2" id="contacto">
+                <section class="har_section har_image_bck har_wht_txt har_fixed" data-image="{{Variables::valor('FondoContacto')}}" data-stellar-background-ratio="0.2" id="contacto">
                     
                     <!-- Over -->
                     <div class="har_over" data-color="#000" data-opacity="0.6"></div>
@@ -932,15 +934,15 @@ use App\Variables;
                             <!-- animation -->
                             <div data-animation="animation_blocks" data-bottom="@class:noactive" data--100-bottom="@class:active">
                                 <div class="col-md-8 col-sm-12 col-md-offset-2 har_form_animation">
-                                    <h2>Contact Us</h2>
+                                    <h2>Conctactame</h2>
                                     <h3>Cupiditate neque libero porro nulla.</h3>
                                     <form id="har_form" class="har_form">
              
                                             <div class="col-md-6">
-                                                <input type="text" class="form-control" placeholder="Name" name="name" required>
+                                                <input type="text" class="form-control" placeholder="Nombres" name="name" required>
                                             </div>
                                             <div class="col-md-6">
-                                                <input type="text" class="form-control" placeholder="Country" name="country">
+                                                <input type="text" class="form-control" placeholder="Pais" name="country">
                                             </div>
 
 
@@ -948,13 +950,13 @@ use App\Variables;
                                                 <input type="text" class="form-control" placeholder="E-mail" name="email" required>
                                             </div>
                                             <div class="col-md-6">
-                                                <input type="text" class="form-control" placeholder="Phone" name="phone" required>
+                                                <input type="text" class="form-control" placeholder="Telefono" name="phone" required>
                                             </div>
 
 
                                             <div class="col-md-12">
-                                                <textarea class="form-control" placeholder="Message" name="message"></textarea>
-                                                <input type="submit" class="btn" value="Send">
+                                                <textarea class="form-control" placeholder="Mensaje" name="message"></textarea>
+                                                <input type="submit" class="btn" value="Enviar">
 
                                             </div>
 
